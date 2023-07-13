@@ -7,7 +7,7 @@ from dotenv import load_dotenv, find_dotenv
 load_dotenv(find_dotenv())
 
 app = FastAPI(
-    title="Jobs API",
+    title="Oasis Backend",
     description="An API that helps you fetch GitHub data with ease for your next big project.",
     version="6",
     contact={

@@ -17,8 +17,6 @@ COPY . .
 EXPOSE 8000
 
 # Set the Redis connection details as environment variables
-ARG REDIS_HOST
-ENV REDIS_HOST=$REDIS_HOST
 ENV REDIS_PORT=18297
 
 # Start the FastAPI app using Uvicorn server with Redis caching
